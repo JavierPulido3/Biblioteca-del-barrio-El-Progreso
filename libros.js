@@ -32,3 +32,15 @@ export function listar_libros_disponibles() {
       });
     }
   }
+
+export function listar_libros_por_autor(autor) {
+    const librosAutor = libros.filter(libro => libro.autor.toLowerCase() === autor.toLowerCase());
+    if (librosAutor.length === 0) {
+      console.log(`No hay libros de ${autor}.`);
+    } else {
+      console.log(`Libros de ${autor}:`);
+      librosAutor.forEach((libro, index) => {
+        console.log(`${index + 1}. Título: ${libro.titulo}, Estado: ${libro.estado}`);
+      });
+    }
+  }
