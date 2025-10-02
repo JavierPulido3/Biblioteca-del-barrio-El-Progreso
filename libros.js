@@ -21,3 +21,14 @@ export function listar_libros() {
     }
   }
   
+export function listar_libros_disponibles() {
+    const disponibles = libros.filter(libro => libro.estado === "disponible");
+    if (disponibles.length === 0) {
+      console.log("No hay libros disponibles");
+    } else {
+      console.log("Libros disponibles:");
+      disponibles.forEach((libro, index) => {
+        console.log(`${index + 1}. Título: ${libro.titulo}, Autor: ${libro.autor}`);
+      });
+    }
+  }
