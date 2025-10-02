@@ -1,0 +1,20 @@
+{
+  "name": "biblioteca-del-barrio-el-progreso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JavierPulido3/Biblioteca-del-barrio-El-Progreso.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JavierPulido3/Biblioteca-del-barrio-El-Progreso/issues"
+  },
+  "homepage": "https://github.com/JavierPulido3/Biblioteca-del-barrio-El-Progreso#readme"
+}
