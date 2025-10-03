@@ -6,8 +6,8 @@
 
 ## Descripción
 
-Este proyecto es un sistema de gestión para una biblioteca. Permite a los administradores registrar usuarios, registrar libros y realizar préstamos de libros a los usuarios. Además, los administradores pueden consultar el estado de los libros (si están disponibles o prestados), filtrar libros por autor, y gestionar las devoluciones de libros.
-El programa está diseñado para funcionar de manera sencilla en consola utilizando JavaScript puro, sin interfaz gráfica, y organizado en diferentes módulos para facilitar la mantenibilidad del código.
+Este proyecto es un sistema de gestión para una biblioteca. Permite registrar usuarios, registrar libros y realizar préstamos de libros a los usuarios. Además, los administradores pueden consultar el estado de los libros (si están disponibles o prestados), filtrar libros por autor, y gestionar las devoluciones de libros.
+El programa está diseñado para funcionar de manera sencilla en consola utilizando JavaScript puro, sin interfaz gráfica, y organizado en diferentes módulos para facilitar la sostenibilidad y organizamiento del código.
 
 ## Funcionalidades
 
@@ -38,10 +38,6 @@ usuarios.js: Contiene las funciones para manejar la información de los usuarios
 libros.js: Contiene las funciones para manejar los libros y realizar los filtros.
 prestamos.js: Contiene las funciones para gestionar los préstamos y devoluciones de libros.
 main.js: Es el archivo principal que coordina todo el flujo de trabajo y ejecuta las funciones desde los módulos anteriores.
-
-## Requisitos
-
-Node.js: Asegúrate de tener instalado Node.js en tu máquina para ejecutar el programa desde la consola.
 
 ## Instalación y Ejecución
 
