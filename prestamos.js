@@ -1,4 +1,4 @@
-import { libros } from "./libros";
+import { libros } from "./libros.js";
 
 export function prestar_libro(titulo) {
   const libro = libros.find(libro => libro.titulo.toLowerCase() === titulo.toLowerCase());
